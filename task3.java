@@ -56,7 +56,7 @@ import java.util.*;
                       
       
         balance_amount = balance_amount + deposit_amount;  
-        System.out.println("Your Money has been successfully depsited");  
+        System.out.println("Your Money has been successfully deposited");  
         System.out.println("");  
         break;  
    
