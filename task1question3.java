@@ -6,12 +6,12 @@ class GuessingGame {
     
    int ans = (int)(Math.random() * 1000) + 1;
     
-   int number_of_tries = 3;
+   int number_of_tries = 5;
     
    Scanner in = new Scanner(System.in);
     
    boolean correct = false;
-   System.out.println("I'm thinking of a number between 1 and 1000.\nYou have only 3 tries to guess the number.");
+   System.out.println("I'm thinking of a number between 1 and 1000.\nYou have only 5 tries to guess the number.");
    while (number_of_tries > 0) {
      System.out.println("Enter your guess and pls do wait: ");
     int guess_the_number = in.nextInt();
@@ -28,9 +28,10 @@ class GuessingGame {
       
      else {
        System.out.println("Your guess is too low.\nYou have " + (number_of_tries - 1) + " tries left.");
+       number_of_tries--;
      }
       
-     number_of_tries--;
+    // number_of_tries--;
    }
    
    if (correct == false) {
