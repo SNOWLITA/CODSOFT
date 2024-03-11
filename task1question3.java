@@ -17,7 +17,7 @@ import java.util.*;
      int guess_the_number = in.nextInt();
        
       if (guess_the_number == ans) {
-        System.out.println("Great! You guessed the number!\nYou win!");
+        System.out.println("Great! You guessed the number!\nYou win!\nYour score is : 10");
         break;
       }
        
