@@ -1,4 +1,4 @@
-  
+   
 import java.util.*;
  
  class GuessingGame {
@@ -34,7 +34,7 @@ import java.util.*;
     }
     
     if (correct == false) {
-      System.out.println("You ran out of tries.\nYou lose!");
+      System.out.println("You ran out of tries.\nYou lose!\nYour score is: 0 ");
     }
   }
 }
